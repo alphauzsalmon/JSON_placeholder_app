@@ -10,15 +10,7 @@ class LoadComments extends CommentEvent {
 }
 
 class PostComment extends CommentEvent {
-  final int postId;
-  final String name;
-  final String email;
-  final String body;
+  final Comment comment;
 
-  const PostComment({
-    required this.postId,
-    required this.name,
-    required this.email,
-    required this.body,
-  });
+  const PostComment({required this.comment});
 }

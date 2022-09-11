@@ -11,8 +11,12 @@ class AlbumsLoading extends AlbumState {}
 
 class AlbumsLoaded extends AlbumState {
   final List<Album> albums;
+  final List<Photo> photos;
 
-  const AlbumsLoaded({this.albums = const <Album>[]});
+  const AlbumsLoaded({
+    this.albums = const <Album>[],
+    this.photos = const <Photo>[],
+  });
 
   @override
   List<Object?> get props => [albums];
