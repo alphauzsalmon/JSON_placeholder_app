@@ -1,4 +1,0 @@
-#Mon Jan 31 12:02:29 UZT 2022
-base.0=/home/sulaymon/AndroidStudioProjects/test_app_for_eclipse_ds/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
